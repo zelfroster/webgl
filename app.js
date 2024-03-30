@@ -92,9 +92,9 @@ function InitDemo() {
   //
   const triangleVertices = [
     // X, Y // R, G, B
-    ...[0.0, 0.5, 1.0, 0.0, 0.0],
-    ...[-0.5, -0.5, 0.0, 1.0, 0.0],
-    ...[0.5, -0.5, 0.0, 0.0, 1.0],
+    ...[0.0, 0.5, 0.0, 1.0, 1.0],
+    ...[-0.5, -0.5, 1.0, 0.0, 1.0],
+    ...[0.5, -0.5, 1.0, 1.0, 0.0],
   ];
 
   const triangleVertexBufferObject = gl.createBuffer();
